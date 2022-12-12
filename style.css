@@ -1,0 +1,271 @@
+@import ul(
+
+);
+
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding-left:0;
+}
+nav a{
+  text-decoration:none;
+}
+nav li{
+  display:inline;
+  padding: 3px;
+}
+nav a:link{
+  color:white;
+}
+nav a:visited{
+  color:white;
+}
+nav a:hover{
+  color:orange;
+}
+nav a:active{
+  color:blue;
+  
+}
+body{
+	font-family: 'source sans Pro', sans serif;
+	background-color: #000000;
+	margin:0;
+}
+nav ul{
+	list-style-type: none;
+	text-align:center;
+	
+}
+
+main{
+	background-color: #BB9587;
+	max-width: 1200px;
+	margin:20px auto;
+}
+footer{    
+	
+	text-align:center;
+	border-top: 1px solid black;
+	padding: 10px;
+	color:black;
+	clear: both;
+	background-color:#17202A;
+	
+}
+
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav {
+	background-color:#DF8F39;
+	border-top: 2px solid #FA8200;
+	border-bottom: 2px solid #FA8200;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		color: #000000;
+		font-size: 4em;
+		text-align:center;
+		/*background: linear-gradient(#cec300, #9198e5);*/
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+table{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+form{
+	background-color: #efefef;
+	max-width: 350px;
+	margin: 0 auto;
+	padding: 10px 30px;
+}
+td,th{
+		
+	border: 5px solid #bbbbbb;
+	padding: 5px;
+}
+th{
+  background-color: #bbbbbb;
+  color: white;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display:block;
+}
+input[type = submit]{
+	display: block;
+	background-color:lightgray;
+}
+iframe{
+	
+}
+
+
+
+h3{
+	text-align:center;
+}
+
+
+
+.header-image{
+	max-width: 1200px;
+
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+}
+
+.header{
+	background-collor: white;
+	
+	box-shadow: 2px 2px 6px #000;
+    border-radius: 50px;
+}
+
+
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+.col-sm-6 {
+	margin: 0 auto;
+}
+.col-sm-6 p {
+	color: #2E4053;
+	margin: 10 auto;
+}
+.col-sm-3 p {
+	color: #2E4053;
+	
+}
+.col-sm-4 p {
+	color: #2E4053;
+	
+}
+.col-sm-12 p {
+	color: #2E4053;
+	
+}
+
+}
+
+.row {
+	margin-bottom: 0 auto;
+}
+.video-container {
+	
+    overflow: hidden;
+    position: relative;
+    width:100%;
+	
+}
+
+.video-container::after {
+	
+    padding-top: 50%;
+    display: block;
+    content: '';
+	
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	
+   
+	
+}
+
+.col-sm-12{
+	
+	margin: 0 auto;
+}
+
+/*.homehero {
+	width:1200px;
+	background-image:url(images/car.jpg);
+	height:300px;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+}*/
+.homehero {
+    min-height: 300px;
+    background-image: url(images/car.jpg);
+    background-size: 100% 100%;
+    
+    color: white;
+    text-shadow: 1px 1px 0 black;
+	text-align: center;
+	
+}
+.homehero h2 {
+	padding-top: 2em;
+	font-size: 40px;
+	color: purple;
+}
+h2 {
+	color: #17202A;
+}
+td{
+	font-weight: bold;
+}
